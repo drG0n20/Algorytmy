@@ -12,14 +12,15 @@ public class SumaLiczb extends AbstractAlgorithm {
 
     @Override
     public void runAlgorithm(String[] input) {
-        int n = Integer.parseInt(input[1]);
+
         int sum = 0;
 
-        for (int i= 0; i > Integer.parseInt(input[1]); i++ ) {
-        sum = sum + input;
+        for (int i= 1; i < input.length ; i++ ) {
+        sum = sum + Integer.parseInt(input[i]);
+            System.out.println(sum);
         }
 
-        System.out.println(sum);
+
 
 
     }

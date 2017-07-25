@@ -16,6 +16,18 @@ public class AlgorithmFactory {
                 return new SumaLiczb();
             case "banknoty":
                 return new BanknotyZadanie2();
+            case "rokprzestepny":
+                return new RokPrzestepny();
+            case "silnia":
+                return new Silnia();
+            case "sumasilni":
+                return new SumaSilni();
+            case "silniadziesiatkijednosci":
+                return new SilniaDziesiatkiJednosci();
+            case "ciagfibonacciego":
+                return new CiagFibonacciego();
+            case "szyfrcezara":
+                return new SzyfrCezara();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
