@@ -5,7 +5,7 @@ import Algorithms.*;
  */
 public class AlgorithmFactory {
     public AbstractAlgorithm getAlgorithm(String name) throws Exception {
-        switch (name.toLowerCase()){
+        switch (name.toLowerCase()) {
             case "test":
                 return new Test();
             case "biednycamelcase":
@@ -28,6 +28,10 @@ public class AlgorithmFactory {
                 return new CiagFibonacciego();
             case "szyfrcezara":
                 return new SzyfrCezara();
+            case "algorytmbabelkowy":
+                return new AlgorytmBabelkowy();
+            case "sortowaniepunktow":
+                return new SortowaniePunktow();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
