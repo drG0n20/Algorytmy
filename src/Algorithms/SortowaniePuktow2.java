@@ -1,14 +1,15 @@
 package Algorithms;
 
 
-public class AlgorytmBabelkowyIterator extends AbstractAlgorithm {
+public class SortowaniePuktow2 extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return "algbabelkowyiterator";
+        return "sortowaniepktow2";
     }
 
     @Override
     public void runAlgorithm(String[] input) {
+
 
     }
 }

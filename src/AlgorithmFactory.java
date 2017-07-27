@@ -30,6 +30,8 @@ public class AlgorithmFactory {
                 return new SzyfrCezara();
             case "algorytmbabelkowy":
                 return new AlgorytmBabelkowy();
+            case "sortowaniepktow2":
+                return new SortowaniePuktow2();
             case "sortowaniepunktow":
                 return new SortowaniePunktow();
 
