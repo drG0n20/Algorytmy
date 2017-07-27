@@ -32,6 +32,10 @@ public class AlgorithmFactory {
                 return new AlgorytmBabelkowy();
             case "sortowaniepunktow":
                 return new SortowaniePunktow();
+            case "sortowanieprzezzlicznie":
+                return new SortowaniePrzezZliczanie();
+            case "algorytmkzryzowka":
+                return new AlgorytmKzryzowka();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
