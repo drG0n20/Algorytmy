@@ -10,6 +10,7 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
     private String
 
     @Override
+
     public void runAlgorithm(String[] input) {
 
         int Zenek = Integer.parseInt(input[1]);
@@ -18,13 +19,11 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
 
         int[] Zenek = new int[];
         int[] Bogdan = new int[];
-        int[] 
+        int[] Kuba = new int[];
 
         Zenek = int Jarek;
         Bogdan = int Marek;
 
-
-
-
+        
     }
 }
