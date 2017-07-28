@@ -11,7 +11,7 @@ public class AlgorytmBabelkowy extends AbstractAlgorithm {
 
     @Override
     public void runAlgorithm(String[] input) {
-//        int tab = Integer.parseInt(input[1]);
+
         int tab[] = new int[input.length - 1];
 
         int temp;
