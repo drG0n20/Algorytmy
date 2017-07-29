@@ -38,6 +38,14 @@ public class AlgorithmFactory {
                 return new SortowaniePrzezZliczanie();
             case "algorytmkzryzowka":
                 return new AlgorytmKzryzowka();
+            case "generatorplanszywarcaby":
+                return new GeneratorPlanszyWarcaby();
+            case "najwiekszywspolnydzielnik":
+                return new NajwiekszyWspolnyDzielnik();
+            case "zadanie3tablice":
+                return new Zadanie3Tablice();
+            case "interpretacjatekstu":
+                return new InterpretacjaTekstu();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
