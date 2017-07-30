@@ -1,6 +1,5 @@
 package Algorithms;
 
-
 public class AlgorytmKzryzowka extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -20,7 +19,6 @@ public class AlgorytmKzryzowka extends AbstractAlgorithm {
 
             int x = (int) Math.sqrt(sqrt);
             String[][] tab = new String[x][x];
-
 
             for (int i = 0; i < tab.length; i++) {
                 for (int j = 0; j < tab.length; j++) {

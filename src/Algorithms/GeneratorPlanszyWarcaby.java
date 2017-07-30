@@ -7,33 +7,43 @@ public class GeneratorPlanszyWarcaby extends AbstractAlgorithm {
 
     }
 
-    private String _kolory[] = {"B", "C"};
-
     @Override
     public void runAlgorithm(String[] input) {
 
         int m = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
+        String color = input[3];
+        int counter = 0;
 
-        int licznik;
-
-        if (_kolory.equals("B")) {
-            licznik = 0;
-        } else {
-            licznik = 1;
+        if (color.equals("B")) {
+            counter = 1;
         }
 
         String[][] tab = new String[m][n];
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                tab[i][j] = _kolory[licznik % _kolory.length];
-                licznik++;
+                if (i == 0 && j == 0) //jesteśmy w polu A1
+                    tab[i][j] = color;
+                else if (j == 0) {
+                    if (tab[i - 1][j].equals("B")) {
+                        tab[i][j] = "C";
+                        counter = 0;
+                    } else {
+                        tab[i][j] = "B";
+                        counter = 1;
+                    }
+                } else {
+                    if (counter % 2 == 0) {
+                        tab[i][j] = "C";
+                    } else {
+                        tab[i][j] = "B";
+                    }
+                }
+                counter++;
             }
-            licznik++;
         }
-
-        for (int i = 0; i < m; i++) {
+        for (int i = 1; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.printf("%s ", tab[i][j]);
             }

@@ -47,7 +47,6 @@ public class SortowaniePunktow extends AbstractAlgorithm {
 
                     tablicaWynikow[j + 1][0] = temp[0];
                     tablicaWynikow[j + 1][1] = temp[1];
-
                 }
             }
         }

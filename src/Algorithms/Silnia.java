@@ -12,7 +12,6 @@ public class Silnia extends AbstractAlgorithm {
         int n = Integer.parseInt(input[1]);
 
         System.out.println(Silnia(n));
-
     }
 
     private int Silnia(int n) { //calkowicie z boku bo tam sa Stringi

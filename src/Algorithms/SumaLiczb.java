@@ -1,6 +1,5 @@
 package Algorithms;
 
-
 public class SumaLiczb extends AbstractAlgorithm {
 
     @Override

@@ -1,6 +1,5 @@
 package Algorithms;
 
-
 public class SilniaDziesiatkiJednosci extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -25,21 +24,20 @@ public class SilniaDziesiatkiJednosci extends AbstractAlgorithm {
                 System.out.println("2 4");
                 break;
             case 5:
-                System.out.println("2 0");
-                break;
             case 6:
+            case 8:
                 System.out.println("2 0");
                 break;
             case 7:
                 System.out.println("4 0");
                 break;
-            case 8:
-                System.out.println("2 0");
+
             case 9:
                 System.out.println("8 0");
                 break;
-
+            default:
+                System.out.println("Wpisz cos z zakresu 1 - 9!");
+                break;
         }
-
     }
 }

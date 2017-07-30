@@ -1,6 +1,5 @@
 package Algorithms;
 
-
 public class AlgorytmBabelkowy extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -11,13 +10,13 @@ public class AlgorytmBabelkowy extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
 
         int tab[] = new int[input.length - 1];
-        int temp;
+        int temp; //wartosc tymczasowa
         //przypisujemy wartosci poprzez petle
 
         for (int i = 0; i < tab.length; i++) {
             tab[i] = Integer.parseInt(input[i + 1]);
         }
-
+        //zamieniamy miejscami
         for (int i = 0; i < tab.length; i++) {
             for (int j = 0; j < tab.length; j++) {
                 if (tab[j] < tab[j + 1]) {
@@ -27,11 +26,10 @@ public class AlgorytmBabelkowy extends AbstractAlgorithm {
                 }
             }
         }
-        for (int i = 0; i<tab.length;i++) {
-            System.out.println(tab[i]);}
-
+        for (int i = 0; i < tab.length; i++) {
+            System.out.println(tab[i]);
+        }
     }
-
 }
 
 
