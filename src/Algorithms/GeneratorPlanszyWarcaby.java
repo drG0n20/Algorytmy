@@ -14,15 +14,16 @@ public class GeneratorPlanszyWarcaby extends AbstractAlgorithm {
 
         int m = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
-        int licznik;
 
-        String[][] tab = new String[m][n];
+        int licznik;
 
         if (_kolory.equals("B")) {
             licznik = 0;
         } else {
             licznik = 1;
         }
+
+        String[][] tab = new String[m][n];
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {

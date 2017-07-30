@@ -7,23 +7,36 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
         return "interpretacjatekstu";
     }
 
-    private String
 
     @Override
 
     public void runAlgorithm(String[] input) {
 
-        int Zenek = Integer.parseInt(input[1]);
-        int Bogdan = Integer.parseInt(input[2]);
-        int Kuba = Integer.parseInt(input[3]);
+        String ZenekAnswers = input[1];
+        String BogdanAnswers = input[2];
+        String KubaAnswers = input[3];
 
-        int[] Zenek = new int[];
-        int[] Bogdan = new int[];
-        int[] Kuba = new int[];
+        if (!(KubaAnswers.length() == ZenekAnswers.length()) &&
+                !(KubaAnswers.length() == BogdanAnswers.length())) {
+            System.out.println("Długości odpowiedzi się nie zgadzają!");
+//            if ((KubaAnswers.length(),ZenekAnswers.length()),BogdanAnswers.length() > 20 )
+//            System.out.println("Za dlugie, kurde!");
+            return;
+        }
 
-        Zenek = int Jarek;
-        Bogdan = int Marek;
+        char[] ZenekCharAnswers = ZenekAnswers.toCharArray();
+        char[] BogdanCharAnswers = BogdanAnswers.toCharArray();
+        char[] KubaCharAnswers = KubaAnswers.toCharArray();
 
-        
+        int licznikOdpowiedzi = 0;
+
+        for (int i = 0; i < KubaAnswers.length(); i++) {
+            if (KubaCharAnswers != BogdanCharAnswers)
+                licznikOdpowiedzi++;
+
+            if (KubaCharAnswers != ZenekCharAnswers)
+                licznikOdpowiedzi++;
+        }
+        System.out.printf("%d ", licznikOdpowiedzi);
     }
 }
