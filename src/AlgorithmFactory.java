@@ -45,6 +45,10 @@ public class AlgorithmFactory {
 //                return new Palindrom();
             case "wielkanoc":
                 return new Wielkanoc();
+            case "zadaniapraktyczne":
+                return new ZadaniaPraktyczneTablice();
+            case "maxmin":
+                return new MaxMinElement();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
