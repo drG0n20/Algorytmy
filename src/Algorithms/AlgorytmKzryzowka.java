@@ -21,7 +21,6 @@ public class AlgorytmKzryzowka extends AbstractAlgorithm {
             int x = (int) Math.sqrt(sqrt);
             String[][] tab = new String[x][x];
 
-
             for (int i = 0; i < tab.length; i++) {
                 for (int j = 0; j < tab.length; j++) {
                     tab[i][j] = _letters[i] + (j + 1);

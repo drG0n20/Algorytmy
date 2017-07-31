@@ -24,6 +24,6 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
         Zenek = int Jarek;
         Bogdan = int Marek;
 
-        
+
     }
 }
