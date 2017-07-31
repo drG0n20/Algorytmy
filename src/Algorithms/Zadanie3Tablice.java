@@ -37,5 +37,4 @@ public class Zadanie3Tablice extends AbstractAlgorithm {
         System.out.println(wynik);
 
     }
-
 }

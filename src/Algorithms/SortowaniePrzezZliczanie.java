@@ -11,10 +11,9 @@ public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
 
         int n = input.length - 2;
-        int max = Integer.parseInt(input[1]) + 1; //zeby byla 9 w tablicy
+        int max = Integer.parseInt(input[1]) + 1; //dodajemy 1 zeby byla 9 w tablicy
 
         int[] tabSparsowanychWejscia = new int[n];
-
 
         for (int i = 0; i < n; i++) {
             tabSparsowanychWejscia[i] = Integer.parseInt(input[i + 2]);

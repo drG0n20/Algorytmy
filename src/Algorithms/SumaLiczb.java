@@ -1,8 +1,5 @@
 package Algorithms;
 
-/**
- * Created by RENT on 2017-07-24.
- */
 public class SumaLiczb extends AbstractAlgorithm {
 
     @Override
@@ -15,13 +12,9 @@ public class SumaLiczb extends AbstractAlgorithm {
 
         int sum = 0;
 
-        for (int i= 1; i < input.length ; i++ ) {
-        sum = sum + Integer.parseInt(input[i]);
+        for (int i = 1; i < input.length; i++) {
+            sum = sum + Integer.parseInt(input[i]);
             System.out.println(sum);
         }
-
-
-
-
     }
 }

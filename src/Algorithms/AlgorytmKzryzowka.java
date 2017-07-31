@@ -1,6 +1,5 @@
 package Algorithms;
 
-
 public class AlgorytmKzryzowka extends AbstractAlgorithm {
     @Override
     public String getName() {

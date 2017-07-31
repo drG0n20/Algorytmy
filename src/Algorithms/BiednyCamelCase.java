@@ -9,27 +9,22 @@ public class BiednyCamelCase extends AbstractAlgorithm {
     @Override
     public void runAlgorithm(String[] input) {
 
-        int letters = 0; //Licznik zliczający wszystkie literki, aby można było określić czy wypisać z dużej czy z małej
-        for(int wordsCounter = 1; wordsCounter<input.length; wordsCounter++)
-            //For, który przechodzi po wszystkich słowach
-            //Iteracje zaczynamy od 1, ponieważ w input[0] zapisana jest nazwa algorytmu
+        int letters = 0; //licznik
+        for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) // for, przechodzi po wszystkich slowach
         {
-            String word = input[wordsCounter]; //Zapisujemy do zmiennej word aktualnie przetwarzane słowo
-            char[] lettersInWord = word.toCharArray(); //Rozbijamy słowo na poszczególne znaki i dodajemy do tablicy charow
-            for (int lettersCounter = 0; lettersCounter < lettersInWord.length; lettersCounter++)
-            //For, który przechodzi przez wszystkie literki w słowie
-            {
-                if (letters % 2 == 0) //jeżeli literka jest parzysta piszemy ją z dużej
+            String word = input[wordsCounter];
+            char[] lettersInWord = word.toCharArray();
+            for (int lettersCounter = 0; lettersCounter < lettersInWord.length; lettersCounter++) {
+                if (letters % 2 == 0) //jezeli literka parzysta wypisujemy z duzej
                 {
                     System.out.print(Character.toString(lettersInWord[lettersCounter]).toUpperCase());
-                }
-                else //W przeciwnym wypadku wypisujemy z małej
+                } else // jezeli niepazysta z malej
                 {
                     System.out.print(Character.toString(lettersInWord[lettersCounter]).toLowerCase());
                 }
-                letters++; //Zwiększamy licznik wszystkich literek
+                letters++; // zwiekszamy licznik
             }
-            System.out.print(" "); //Między słowami dokładamy spacje
+            System.out.print(" "); //wypisujemy spacje
         }
     }
 }

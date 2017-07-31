@@ -28,6 +28,9 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
         char[] BogdanCharAnswers = BogdanAnswers.toCharArray();
         char[] KubaCharAnswers = KubaAnswers.toCharArray();
 
+<<<<<<< HEAD
+
+=======
         int licznikOdpowiedzi = 0;
 
         for (int i = 0; i < KubaAnswers.length(); i++) {
@@ -38,5 +41,6 @@ public class InterpretacjaTekstu extends AbstractAlgorithm {
                 licznikOdpowiedzi++;
         }
         System.out.printf("%d ", licznikOdpowiedzi);
+>>>>>>> 1b82b7a802109db90a2f0ecabd5ed4a472e16492
     }
 }

@@ -1,8 +1,5 @@
 import Algorithms.*;
 
-/**
- * Created by jake on 21.07.2017.
- */
 public class AlgorithmFactory {
     public AbstractAlgorithm getAlgorithm(String name) throws Exception {
         switch (name.toLowerCase()) {
@@ -30,8 +27,6 @@ public class AlgorithmFactory {
                 return new SzyfrCezara();
             case "algorytmbabelkowy":
                 return new AlgorytmBabelkowy();
-            case "sortowaniepktow2":
-                return new SortowaniePuktow2();
             case "sortowaniepunktow":
                 return new SortowaniePunktow();
             case "sortowanieprzezzlicznie":
@@ -46,6 +41,8 @@ public class AlgorithmFactory {
                 return new Zadanie3Tablice();
             case "interpretacjatekstu":
                 return new InterpretacjaTekstu();
+//            case "palindrom":
+//                return new Palindrom();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
