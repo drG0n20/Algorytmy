@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2716ae6-439e-4336-8c3f-48ba4aa51221" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Palindrom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PlanszaDlaStatkow.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/OdejmowanieKwoty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Algorithms/OdejmowanieKwoty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Algorithms/SortowaniePuktow2.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AlgorytmBabelkowy.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AlgorytmBabelkowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AlgorytmKzryzowka.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AlgorytmKzryzowka.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BanknotyZadanie2.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BanknotyZadanie2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BiednyCamelCase.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BiednyCamelCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/GeneratorPlanszyWarcaby.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/GeneratorPlanszyWarcaby.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/RokPrzestepny.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/RokPrzestepny.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Silnia.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Silnia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SilniaDziesiatkiJednosci.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SilniaDziesiatkiJednosci.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/AlgorithmFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/AlgorytmBabelkowy.java" afterPath="$PROJECT_DIR$/src/Algorithms/AlgorytmBabelkowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/AlgorytmKzryzowka.java" afterPath="$PROJECT_DIR$/src/Algorithms/AlgorytmKzryzowka.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/BanknotyZadanie2.java" afterPath="$PROJECT_DIR$/src/Algorithms/BanknotyZadanie2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" afterPath="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/DzienRoku.java" afterPath="$PROJECT_DIR$/src/Algorithms/DzienRoku.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java" afterPath="$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/RokPrzestepny.java" afterPath="$PROJECT_DIR$/src/Algorithms/RokPrzestepny.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Silnia.java" afterPath="$PROJECT_DIR$/src/Algorithms/Silnia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SilniaDziesiatkiJednosci.java" afterPath="$PROJECT_DIR$/src/Algorithms/SilniaDziesiatkiJednosci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SortowaniePrzezZliczanie.java" afterPath="$PROJECT_DIR$/src/Algorithms/SortowaniePrzezZliczanie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SortowaniePunktow.java" afterPath="$PROJECT_DIR$/src/Algorithms/SortowaniePunktow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SumaLiczb.java" afterPath="$PROJECT_DIR$/src/Algorithms/SumaLiczb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SumaSilni.java" afterPath="$PROJECT_DIR$/src/Algorithms/SumaSilni.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java" afterPath="$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java" afterPath="$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Zadanie3Tablice.java" afterPath="$PROJECT_DIR$/src/Algorithms/Zadanie3Tablice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Palindrom.java" afterPath="$PROJECT_DIR$/src/Algorithms/Palindrom.java" />
     </list>
     <ignored path="Algorytmy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,31 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Palindrom.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Palindrom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AlgorithmFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratorPlanszyWarcaby.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneratorPlanszyWarcaby.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortowaniePunktow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/SortowaniePunktow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+            <state relative-caret-position="264">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -116,8 +89,8 @@
       <file leaf-file-name="SzyfrCezara.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+            <state relative-caret-position="264">
+              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -181,7 +154,6 @@
         <option value="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BanknotyZadanie2.class" />
         <option value="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/DzienRoku.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Palindrom.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Warcaby.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/NajwiekszyWspolnyDzielnik.java" />
@@ -196,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Zadanie3Tablice.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Palindrom.java" />
         <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
       </list>
     </option>
@@ -206,9 +179,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
-    <option name="y" value="42" />
+    <option name="y" value="59" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
@@ -283,7 +256,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="silniadziesiatkijednosci 8 " />
+      <option name="PROGRAM_PARAMETERS" value="palindrom 121" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -553,12 +526,12 @@
       <updated>1501250798697</updated>
       <workItem from="1501330093526" duration="8636000" />
       <workItem from="1501427280322" duration="2830000" />
-      <workItem from="1501430727536" duration="5257000" />
+      <workItem from="1501430727536" duration="7755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16723000" />
+    <option name="totallyTimeSpent" value="19221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,12 +543,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -589,7 +562,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -662,8 +635,14 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Palindrom.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -893,14 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Palindrom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Warcaby.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1008,14 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1040,19 +1003,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/GeneratorPlanszyWarcaby.java">
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Palindrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
