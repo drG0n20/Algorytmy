@@ -43,6 +43,8 @@ public class AlgorithmFactory {
                 return new InterpretacjaTekstu();
 //            case "palindrom":
 //                return new Palindrom();
+            case "wielkanoc":
+                return new Wielkanoc();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
