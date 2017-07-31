@@ -49,6 +49,8 @@ public class AlgorithmFactory {
                 return new ZadaniaPraktyczneTablice();
             case "maxmin":
                 return new MaxMinElement();
+            case "minmaxlider":
+                return new MinMaxLider();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
