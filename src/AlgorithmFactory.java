@@ -41,12 +41,8 @@ public class AlgorithmFactory {
                 return new Zadanie3Tablice();
             case "interpretacjatekstu":
                 return new InterpretacjaTekstu();
-<<<<<<< HEAD
             case "palindrom":
                 return new Palindrom();
-=======
-//            case "palindrom":
-//                return new Palindrom();
             case "wielkanoc":
                 return new Wielkanoc();
             case "zadaniapraktyczne":
@@ -55,7 +51,6 @@ public class AlgorithmFactory {
                 return new MaxMinElement();
             case "minmaxlider":
                 return new MinMaxLider();
->>>>>>> 62ab0e3d8da2ccf79b00544947b26971526b518c
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
