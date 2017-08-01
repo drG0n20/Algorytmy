@@ -41,8 +41,8 @@ public class AlgorithmFactory {
                 return new Zadanie3Tablice();
             case "interpretacjatekstu":
                 return new InterpretacjaTekstu();
-//            case "palindrom":
-//                return new Palindrom();
+            case "palindrom":
+                return new Palindrom();
             case "wielkanoc":
                 return new Wielkanoc();
             case "zadaniapraktyczne":

@@ -1,6 +1,7 @@
-
+<<<<<<< HEAD
 =======
 
+>>>>>>> d5321baa681ab1605c70f77c789d9c4d0e370b8d
 # Ustawienia uzytkownika:
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -38,8 +39,9 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
-
+<<<<<<< HEAD
+fabric.properties
 =======
 fabric.properties
 .idea/inspectionProfiles/
-
+>>>>>>> d5321baa681ab1605c70f77c789d9c4d0e370b8d
