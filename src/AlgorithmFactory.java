@@ -37,12 +37,12 @@ public class AlgorithmFactory {
                 return new GeneratorPlanszyWarcaby();
             case "najwiekszywspolnydzielnik":
                 return new NajwiekszyWspolnyDzielnik();
-            case "zadanie3tablice":
-                return new Zadanie3Tablice();
+//            case "zadanie3tablice":
+//                return new Zadanie3Tablice();
             case "interpretacjatekstu":
                 return new InterpretacjaTekstu();
-            case "palindrom":
-                return new Palindrom();
+//            case "palindrom":
+//                return new Palindrom();
             case "wielkanoc":
                 return new Wielkanoc();
             case "zadaniapraktyczne":
@@ -51,6 +51,10 @@ public class AlgorithmFactory {
                 return new MaxMinElement();
             case "minmaxlider":
                 return new MinMaxLider();
+            case "testowanielisty":
+                return new TestowanieListy();
+            case "listadotestow":
+                return new ListaDoTestow();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
