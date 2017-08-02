@@ -52,9 +52,13 @@ public class AlgorithmFactory {
             case "minmaxlider":
                 return new MinMaxLider();
             case "testowanielisty":
-                return new TestowanieListy();
-            case "listadotestow":
-                return new ListaDoTestow();
+                return new TestowanieListy1();
+//            case "listadotestow":
+//                return new ListaDoTestow();
+            case "prostedrzewo":
+                return new ProsteDrzewo();
+            case "kopiec":
+                return new Kopiec();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");

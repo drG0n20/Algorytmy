@@ -1,7 +1,13 @@
 package Algorithms;
 
-/**
- * Created by RENT on 2017-08-02.
- */
-public class Kopiec {
+public class Kopiec extends AbstractAlgorithm {
+    @Override
+    public String getName() {
+        return "kopiec";
+    }
+
+    @Override
+    public void runAlgorithm(String[] input) {
+
+    }
 }

@@ -2,7 +2,7 @@ package Algorithms;
 
 import Struktury.mList;
 
-public class TestowanieListy extends AbstractAlgorithm {
+public class TestowanieListy1 extends AbstractAlgorithm {
     @Override
     public String getName() {
         return "testowanielisty";

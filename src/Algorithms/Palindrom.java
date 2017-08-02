@@ -6,34 +6,83 @@
 //        return "palindrom";
 //    }
 //
+//}
+//
 //    @Override
 //    public void runAlgorithm(String[] input) {
 //
-////        int numbers[] = new int[]{121,27};
-//        int n = Integer.parseInt(input[1]);
-//        int[]
-//        char[] charArray = wort.toCharArray();
+//static int reverseNumber(int number)
+//        {
+//        int reverse = 0;
 //
-//        //iterate through the numbers
-//        for(int i=0; i < numbers.length; i++){
+//        int rem = 0;
 //
-//            int number = numbers[i];
-//            int reversedNumber  = 0;
-//            int temp=0;
+//        while (number != 0)
+//        {
+//        rem = number % 10;
 //
-//            //reverse the number
-//            while(number > 0){
-//                temp = number % 10;
-//                number = number / 10;
-//                reversedNumber = reversedNumber * 10 + temp;
-//            }
+//        reverse = (reverse*10) + rem;
 //
-//            if(numbers[i] == reversedNumber)
-//                System.out.println(numbers[i] + " is a palindrome number");
-//            else
-//                System.out.println(numbers[i] + " is not a palindrome number");
-//            int palindromSum = numbers[i]+reversedNumber;
+//        number = number/10;
 //        }
-//    }
-//}
+//
+//        return reverse;
+//        }
+//
+////Method To Check For Palindrome
+//
+//static boolean checkPalindrome(int number)
+//        {
+//        int reverse = reverseNumber(number);
+//
+//        if(reverse == number)
+//        {
+//        return true;
+//        }
+//        else
+//        {
+//        return false;
+//        }
+//        }
+//
+////Method To Reverse And Add Given Number Until You Get A Palindrome
+//
+//static void reverseAndAdd(int number)
+//        {
+//        if(checkPalindrome(number))
+//        {
+//        System.out.println("Given Number is already a palindrome");
+//        }
+//        else
+//        {
+//        while (!checkPalindrome(number))
+//        {
+//        int reverse = reverseNumber(number);
+//
+//        int sum = number + reverse;
+//
+//        System.out.println(number+" + "+reverse+" = "+sum);
+//
+//        number = sum;
+//        }
+//        }
+//        }
+//
+//public static void main(String[] args)
+//        {
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Enter Number : ");
+//
+//        int inputNumber = sc.nextInt();
+//
+//        reverseAndAdd(inputNumber);
+//        }
+//        }
+//
+//
+//
+//
+//
+//
 //
