@@ -17,7 +17,6 @@ public class DzienRoku extends AbstractAlgorithm {
         int day = Integer.parseInt(input[1]);
         int month = Integer.parseInt(input[2]);
         int year = Integer.parseInt(input[3]);
-
         int[] daysInMonth;
 
         if (!IsLeapYear(year)) //jezeli rok jest przestepny
@@ -44,16 +43,13 @@ public class DzienRoku extends AbstractAlgorithm {
             result = daysInMonth[i] + result;
         }
         result = result + day;
-
         System.out.printf("Dzień %d.%d.%d jest %d dniem roku", day, month, year, result);
-
     }
 
     private Boolean IsLeapYear(int year) {
         if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
             return true;
         }
-
         return false;
     }
 }

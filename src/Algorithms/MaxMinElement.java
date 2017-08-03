@@ -10,9 +10,7 @@ public class MaxMinElement extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
 
         int n = input.length - 1;
-
         int[] tab = new int[n];
-
         int max = 0;
         int min = 0;
 
