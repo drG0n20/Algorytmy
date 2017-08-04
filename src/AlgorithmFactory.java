@@ -41,8 +41,8 @@ public class AlgorithmFactory {
 //                return new Zadanie3Tablice();
             case "interpretacjatekstu":
                 return new InterpretacjaTekstu();
-//            case "palindrom":
-//                return new Palindrom();
+            case "palindrom":
+                return new Palindrom();
             case "wielkanoc":
                 return new Wielkanoc();
             case "zadaniapraktyczne":
@@ -57,8 +57,8 @@ public class AlgorithmFactory {
 //                return new ListaDoTestow();
             case "prostedrzewo":
                 return new ProsteDrzewo();
-            case "kopiec":
-                return new Kopiec();
+//            case "kopiec":
+//                return new Kopiec();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
