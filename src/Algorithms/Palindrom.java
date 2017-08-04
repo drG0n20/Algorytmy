@@ -1,50 +1,54 @@
-//package Algorithms;
+package Algorithms;
+
+public class Palindrom extends AbstractAlgorithm {
+    @Override
+    public String getName() {
+        return "palindrom";
+    }
+
+    @Override
+    public void runAlgorithm(String[] input) {
+
+        String string = input[1];
+        String reverse = new StringBuilder(string).reverse().toString();
+        int length = string.length();
+
+
+        int i;
+        int begin;
+        int end;
+        int middle;
 //
-//public class Palindrom extends AbstractAlgorithm {
-//    @Override
-//    public String getName() {
-//        return "palindrom";
-//    }
-//
-//
-//    @Override
-//    public void runAlgorithm(String[] input) {
-//
-//        int n = Integer.parseInt(input[1]);
-//        int reverse = 0;
-//        int temp = 0;
-//
-//        //reverse
-//        while (n != 0) {
-//            temp = n % 10;
-//            reverse = reverse * 10 + temp;
-//            n = n / 10;
-//        }
-//
-//        //check if n is a palindrome
-////        if (reverse == n) {
-////            return true;
-////        } else {
-////            return false;
-////        }
-//
-//    private void sum(int n) {
-//        n = Integer.parseInt(input[1]);
-//        int reverse = 0;
-//        if (n == reverse) {
-//            System.out.println("Number is a palindrome");
-//        } else {
-//            while (n != reverse) {
-//                sum(n) = n + reverse;
-//
-//                System.out.println(n + " + " + reverse + " = " + sum(n));
-//
-//                n = sum(n);
+//        begin = 0;
+//        end = length - 1;
+//        middle = Math.floorDiv((begin + end), 2);
+
+//        for (i = begin; i <= middle; i++) {
+//            if (inputString.charAt(begin) == inputString.charAt(end)) {
+//                begin++;
+//                end--;
+//            } else {
+//                break;
 //            }
 //        }
-//    }
-//}
-//}
 //
-//
-//
+//        if (i == middle + 1) {
+//            System.out.println("Palindrome");
+//        } else {
+//            System.out.println("Not a palindrome");
+//        }
+
+        for (i = 0; i < string.length(); i++) {
+            if (string.toCharArray() == reverse.toCharArray()) {
+                System.out.println("Podany string to Palindrom!");
+            } else {
+                char sum[i] =string[i] + reverse[i];
+                System.out.println(sum);
+            }
+        }
+    }
+}
+
+
+
+
