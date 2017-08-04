@@ -35,11 +35,11 @@
 //            System.out.println("Number is a palindrome");
 //        } else {
 //            while (n != reverse) {
-//                int sum = n + reverse;
+//                sum(n) = n + reverse;
 //
-//                System.out.println(n + " + " + reverse + " = " + sum);
+//                System.out.println(n + " + " + reverse + " = " + sum(n));
 //
-//                n = sum;
+//                n = sum(n);
 //            }
 //        }
 //    }

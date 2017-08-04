@@ -57,8 +57,15 @@ public class AlgorithmFactory {
 //                return new ListaDoTestow();
             case "prostedrzewo":
                 return new ProsteDrzewo();
-            case "kopiec":
-                return new Kopiec();
+//            case "kopiec":
+//                return new Kopiec();
+//            case "testowaniekopca":
+//                return new TestowanieKopca();
+            case "stos":
+                return new Stos();
+            case "onp":
+                return new ONP();
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
