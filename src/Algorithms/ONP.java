@@ -41,6 +41,14 @@ public class ONP extends AbstractAlgorithm {
                     v2 = stack.pop();
                     stack.push(v1 - v2);
                     break;
+                case "(":
+                    v1 = stack.pop();
+                    v2 = stack.pop();
+                    break;
+                case ")":
+                    v1 = stack.pop();
+                    v2 = stack.pop();
+                    break;
                 default:
                     stack.push(Integer.parseInt(input[i]));
             }

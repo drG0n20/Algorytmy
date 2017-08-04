@@ -65,8 +65,12 @@ public class AlgorithmFactory {
                 return new Stos();
             case "onp":
                 return new ONP();
-
-
+            case "zmienneitablice":
+                return new ZmienneiTablice();
+            case "arraylist":
+                return new Zadanie2ArrayList();
+            case "zadanie4_Stos":
+                return new Zadanie4_Stos();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

@@ -2,7 +2,7 @@
 //
 //import Struktury.mList;
 //
-//import java.util.ArrayList;
+//import java.util.Zadanie2ArrayList;
 //import java.util.List;
 //
 //public class ListaDoTestow extends AbstractAlgorithm{
@@ -14,7 +14,7 @@
 //    @Override
 //    public void runAlgorithm(String[] input) {
 //
-//        ArrayList<String> listaKolorow = new ArrayList<>();
+//        Zadanie2ArrayList<String> listaKolorow = new Zadanie2ArrayList<>();
 //        listaKolorow.add("niebieski");
 //        listaKolorow.add("czarny");
 //        listaKolorow.add("zolty");
