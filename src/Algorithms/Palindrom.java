@@ -42,7 +42,7 @@
 //            if (string.toCharArray() == reverse.toCharArray()) {
 //                System.out.println("Podany string to Palindrom!");
 //            } else {
-//                char sum[ i] =string[i] + reverse[i];
+//                char sum[i] =string[i] + reverse[i];
 //                System.out.println(sum);
 //            }
 //        }

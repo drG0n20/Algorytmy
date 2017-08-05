@@ -4,7 +4,7 @@
 //import Struktury.mList;
 //
 //import java.lang.reflect.Array;
-//import java.util.ArrayList;
+//import java.util.Zadanie2ArrayList;
 //
 ///**
 // * Created by jake on 01.08.2017.

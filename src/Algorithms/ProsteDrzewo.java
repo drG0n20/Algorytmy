@@ -32,8 +32,7 @@ public class ProsteDrzewo extends AbstractAlgorithm {
         System.out.printf("Korzeniem jest: %s\n", _tree[0]);
         System.out.println();
 
-        for (int j = 0; j < _tree.length;
-             j++) {
+        for (int j = 0; j < _tree.length; j++) {
             String elementLewy = "";
 //            String elementPrawy;
             String element = "";
