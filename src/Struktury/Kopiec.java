@@ -27,17 +27,17 @@ public class Kopiec {
         }
     }
 
-    public void sort() {
-        int temp = 0;
-        for (int i = 0; i < _date.length; i++) {
-            for (int j = 0; j < _date.length; j++) {
-                if (_date[j] < _date[j + 1]) {
-                    temp = _date[j + 1];
-                    _date[j] = _date[j + 1];
-                    _date[j + 1] = temp;
-                }
-            }
-        }
-    }
+//    public void sort() {
+//        int temp = 0;
+//        for (int i = 0; i < _date.length; i++) {
+//            for (int j = 0; j < _date.length; j++) {
+//                if (_date[j] < _date[j + 1]) {
+//                    temp = _date[j + 1];
+//                    _date[j] = _date[j + 1];
+//                    _date[j + 1] = temp;
+//                }
+//            }
+//        }
+//    }
 }
 

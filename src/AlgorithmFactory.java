@@ -71,6 +71,8 @@ public class AlgorithmFactory {
                 return new Zadanie2ArrayList();
             case "zadanie4_Stos":
                 return new Zadanie4_Stos();
+            case "testoweanie_one_way_list":
+                return new TestowanieOneWayList();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
