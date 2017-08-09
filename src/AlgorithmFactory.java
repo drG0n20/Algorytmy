@@ -77,6 +77,8 @@ public class AlgorithmFactory {
                 return new TestowanieOneWayList();
             case "onp_zadanie5":
                 return new ONP_zadanie5();
+            case "nww":
+                return new NajmniejszaWspolnaWielokrotnosc();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
