@@ -5,7 +5,7 @@ public class mList {
     Element _tail;
     int counter;
 
-    public void goThroughListForward(mList list){
+    public void goThroughListForward(mList list) {
         Element p = list._head; // . kompilator odszukuje w klasie pola i je podpowiada
         while (p.next != null) { //wykonujemy jakas logike
             p = p.next; //dopuki mam nastepnika
@@ -27,36 +27,72 @@ public class mList {
         list._head = p;
         list.counter++;
 
-        if(p.next != null) {
+        if (p.next != null) {
             Element nextEl = p.next;
             nextEl.prev = p;
-        }
-        else {
+        } else {
             list._tail = p;
         }
     }
+
+    //usuwamy element z poczatku listy
+
+    public void removeElementFromHead() {
+        Element p = _head;
+        if (p != null) {
+            _head = p.next;
+            _head.prev = null;
+        }
+        counter--;
+    }
+
+    //usuwamy element z konca listy
+
+    public void removeElementFromTail() {
+        Element p = _tail;
+        if (p != null) {
+            _tail = p.prev;
+            _tail.next = null;
+        }
+        counter--;
+    }
+
+    public void removeElement(int elementToDelete, mList lista) {
+        Element toDelete = getElementForward(elementToDelete, lista);
+        if (_head == toDelete) {
+            removeElementFromHead();
+        } else {
+            Element counter = _head;
+            while (counter.next != toDelete) {
+                counter = counter.next;
+            }
+            counter.next = toDelete.next;
+            toDelete = null;
+        }
+    }
+
+    //dodajemy el na koncu listy
 
     public void addElementAtEnd(int newElement, mList list) {
         Element p = new Element();
         p.data = newElement;
         p.next = null;
         p.prev = list._tail;
-        list._tail=p;
+        list._tail = p;
         list.counter++;
 
-        if(p.prev != null) {
+        if (p.prev != null) {
             Element nextEl = p.prev;
             nextEl.next = p;
-        }
-        else {
+        } else {
             list._head = p;
         }
     }
 
-    public Element getElementForward(int data, mList list){
+    public Element getElementForward(int data, mList list) {
         Element p = list._head;
         while (p.next != null) {
-            if(p.data == data) {
+            if (p.data == data) {
                 break;
             }
             p = p.next;
@@ -64,10 +100,10 @@ public class mList {
         return p;
     }
 
-    public Element getElementBackward(int data, mList list){
+    public Element getElementBackward(int data, mList list) {
         Element p = list._tail;
         while (p.prev != null) {
-            if(p.data == data) {
+            if (p.data == data) {
                 break;
             }
             p = p.prev;
@@ -75,7 +111,7 @@ public class mList {
         return p;
     }
 
-    public void printAllEllements(mList list){
+    public void printAllEllements(mList list) {
         Element p = list._head;
         while (p != null) {
             System.out.println(p.data);
@@ -89,8 +125,7 @@ public class mList {
 
         if (before == list._head) { //czy te 2 wskazniki wskazuja na to samo
             list.addElementAtBeginning(elementToAdd, list);
-        }
-        else {
+        } else {
             Element p = new Element();
             p.data = elementToAdd;
             p.prev = before.prev;
@@ -109,8 +144,7 @@ public class mList {
 
         if (after == list._tail) {
             list.addElementAtBeginning(elementToAdd, list);
-        }
-        else {
+        } else {
             Element p = new Element();
             p.data = elementToAdd;
             p.next = after.next;

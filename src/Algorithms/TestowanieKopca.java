@@ -20,9 +20,17 @@ public class TestowanieKopca extends AbstractAlgorithm {
         }
 
         kopiec.printAllElements();
-        {
-
-        }
-
+        System.out.println("-----");
+        kopiec.deleteElement();
+        kopiec.printAllElements();
+        System.out.println("-----");
+        kopiec.deleteElement();
+        kopiec.printAllElements();
+        System.out.println("-----");
+        kopiec.deleteElement();
+        kopiec.printAllElements();
+        System.out.println("-----");
+        kopiec.deleteElement();
+        kopiec.printAllElements();
     }
 }

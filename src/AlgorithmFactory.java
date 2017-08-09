@@ -52,15 +52,17 @@ public class AlgorithmFactory {
             case "minmaxlider":
                 return new MinMaxLider();
             case "testowanielisty":
-                return new TestowanieListy1();
+                return new TestowanieListyDwukierunkowej();
 //            case "listadotestow":
 //                return new ListaDoTestow();
             case "prostedrzewo":
                 return new ProsteDrzewo();
 //            case "kopiec":
 //                return new Kopiec();
-//            case "testowaniekopca":
-//                return new TestowanieKopca();
+            case "testowaniekopca":
+                return new TestowanieKopca();
+            case "testowaniekopca2":
+                return new TestowanieKopca();
             case "stos":
                 return new Stos();
             case "onp":
@@ -73,6 +75,8 @@ public class AlgorithmFactory {
                 return new Zadanie4_Stos();
             case "testoweanie_one_way_list":
                 return new TestowanieOneWayList();
+            case "onp_zadanie5":
+                return new ONP_zadanie5();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
