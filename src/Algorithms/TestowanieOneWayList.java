@@ -32,7 +32,8 @@ public class TestowanieOneWayList extends AbstractAlgorithm {
         System.out.printf("Usuwam element 10\n");
         oneWayList.deleteElement(10);
         oneWayList.printAllElements();
-
-
+        System.out.printf("Usuwam ostatni element\n");
+        oneWayList.deleteElementAtEnd();
+        oneWayList.printAllElements();
     }
 }

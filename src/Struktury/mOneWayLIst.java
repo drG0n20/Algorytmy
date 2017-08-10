@@ -50,111 +50,96 @@ public class mOneWayLIst {
     }
 
     public void deleteElementAtEnd() {
-        OneWayListElement iterator = _head; //ustawiamy wskaźnik, który będzie przechodził po całej liście
-        //na głowę
-        if (_counter == 0) //jeżeli lista jest pusta
-            return; //kończymy - nie mamy czego usuwać
-
-        //w przeciwnym razie idziemy na koniec listy
-        if (iterator.next != null) //jeżeli mamy następnika
+        OneWayListElement iterator = _head;
+        if (_counter == 0)
+            return;
+        if (iterator.next != null)
         {
-            while (iterator.next.next != null) //jeżeli następnik następnika nie jest ostatnim elementem
-            //zatrzymujemy się w przedostatnim elemencie
+            while (iterator.next.next != null)
             {
-                iterator = iterator.next; //przechodzimy do następnego elementu
+                iterator = iterator.next;
             }
-            iterator.next = null; //skoro znaleźliśmy przedostatni element to one teraz staje się ostatnim
-        } else //w przeciwnym razie jesteśmy smutną listą jednoelementową
+            iterator.next = null;
+        } else
         {
-            _head = null; //Usuwamy jedyny element, więc głowa jest pusta
-            iterator = null; //czyścimy iterator - sprzątamy po sobie
+            _head = null;
+            iterator = null;
             _counter--;
         }
-
     }
 
     public void addElementBeforeElement(int elementToAdd, int beforeElement) {
-        OneWayListElement elementBefore = getElementForward(beforeElement);
-        //wyszukujemy nasz element
 
-        if (elementBefore == _head) //jeżeli element przed który chcemy dodać jest głową
+        OneWayListElement elementBefore = getElementForward(beforeElement);
+
+        if (elementBefore == _head)
         {
-            addElementAtBeginng(elementToAdd); //skorzystajmy z metody dodawania na początku listy
-        } else //w przeciwnym razie musimy jeszcze raz wyszukać nasz element
-        //tym razem musimy zatrzymać się na elemencie przed nim
-        //żeby pozmieniać wskaźniki
+            addElementAtBeginng(elementToAdd);
+        } else
         {
             OneWayListElement iterator = _head;
-            while (iterator.next != elementBefore) //dopóki nie znajdziemy
-            //elementu, któego następnikiem jest element przed który chcemy wstawić
+            while (iterator.next != elementBefore)
             {
-                iterator = iterator.next; //przechodzimy do następnego elementu
+                iterator = iterator.next;
             }
 
             OneWayListElement newElement = new OneWayListElement();
             newElement.data = elementToAdd;
-            newElement.next = iterator.next; //następnikiem nowego elementu staje się element przed który chcemy dodać
-            iterator.next = newElement; //iteratorem zatrzymaliśmy się przed elementem przed którym chcemy dodać
-            //więc następnikiem tego elementu staje się nasz element
+            newElement.next = iterator.next;
+            iterator.next = newElement;
         }
         _counter++;
     }
 
     public void addElementAfterElement(int elementToAdd, int afterElement) {
-        OneWayListElement elementAfter = getElementForward(afterElement); //wyszukujemy element za który chcemy dodać
+        OneWayListElement elementAfter = getElementForward(afterElement);
 
         OneWayListElement newElement = new OneWayListElement();
         newElement.data = elementToAdd;
-        newElement.next = elementAfter.next; //następnikiem naszego elementu jest następnik elelemntu za który chcemy wstawić
+        newElement.next = elementAfter.next;
 
-        elementAfter.next = newElement; //następnikiem elementu za który chcemy wstawić stajemy się my
+        elementAfter.next = newElement;
         _counter++;
     }
 
     public void deleteElement(int elementToDelete) {
-        OneWayListElement toDelete = getElementForward(elementToDelete); //wyszukujemy element do usunięcia
+        OneWayListElement toDelete = getElementForward(elementToDelete);
 
-        if (_head == toDelete) //jeżeli okazało się, że w głowie
-        //znajduje się element do usunięcia
+        if (_head == toDelete)
         {
-            deleteElementAtBeginning(); //korzystamy z metody do usunięcia na początku listy
-        } else //w przeciwnym wypadku musimy znaleźć elementu przed elementem do usunięcia
+            deleteElementAtBeginning();
+        } else
         {
-            OneWayListElement iterator = _head; //tworzymy iterator, którym będziemy wyszukiwać elememt
-            //i od razu przypisujemy mu wskazanie na głowę
-            while (iterator.next != toDelete)//przechodzimy aż zatrzymamy się w elemencie, który
-            //znajduje się przed elementem do usunięcia
+            OneWayListElement iterator = _head;
+            while (iterator.next != toDelete)
             {
-                iterator = iterator.next; //przechodzimy do następnego elementu
+                iterator = iterator.next;
             }
-            iterator.next = toDelete.next; //przepisujemy następnik elementu usuwanego do następnika elementu
-            //przed tym do usunięcia
-            toDelete = null; //robimy porządek i usuwamy nasz element
+            iterator.next = toDelete.next;
+            toDelete = null;
         }
     }
 
     //SEKCJA POMOCNICZO - TECHNICZNA
-    public OneWayListElement getElementForward(int data) //metoda zwraca pierwszy element, który przechowuje
-    //zadeklarowaną przez nas wartość
+    public OneWayListElement getElementForward(int data)
+
     {
-        OneWayListElement p = _head; //zaczynamy wyszukiwanie od głowy
-        while (p.next != null) //przechodzimy dopóki mamy następnik
+        OneWayListElement p = _head;
+        while (p.next != null)
         {
             if (p.data == data) {
-                break; //jeżeli udało nam się znaleźć element to kończymy wykonywanie pętli
+                break;
             }
             p = p.next;
         }
-
-        return p; //jeżeli nie mamy następnika lub przerwaliśmy pętle zwracamy p (pierwszy element z wartością
-        //którą chcemy uzyskać lub ogon z listy)
+        return p;
     }
 
-    public void printAllElements() //metoda drukuje całą listę od pierwszego elementu (głowy) do ostatniego
-    // - ogona
+    public void printAllElements()
+
     {
-        OneWayListElement p = _head; //zaczynamy wyszukiwanie od głowy
-        while (p != null) //przechodzimy dopóki mamy jakąkolwiek wartość (łącznie z ostatnim elementem)
+        OneWayListElement p = _head;
+        while (p != null)
         {
             System.out.println(p.data);
             p = p.next;
