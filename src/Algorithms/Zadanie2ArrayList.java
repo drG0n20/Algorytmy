@@ -22,6 +22,7 @@ public class Zadanie2ArrayList extends AbstractAlgorithm {
         for (int i = 0; i < lista.size(); i++) {
             if (lista.get(i) == toDelete)
                 lista.remove(i);
+            i = 0;
         }
 
         for (Integer i : lista) {
