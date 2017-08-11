@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 package Algorithms;
 
 public class NajmniejszaWspolnaWielokrotnosc extends AbstractAlgorithm {
@@ -43,4 +41,4 @@ public class NajmniejszaWspolnaWielokrotnosc extends AbstractAlgorithm {
         return (a1 * a2) / NwD(a1, a2);
     }
 }
->>>>>>> origin/NWW
+
