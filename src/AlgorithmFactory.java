@@ -71,8 +71,8 @@ public class AlgorithmFactory {
                 return new ZmienneiTablice();
             case "arraylist":
                 return new Zadanie2ArrayList();
-            case "zadanie4_Stos":
-                return new Zadanie4_Stos();
+//            case "zadanie4_Stos":
+//                return new Zadanie4_Stos();
             case "testoweanie_one_way_list":
                 return new TestowanieOneWayList();
             case "onp_zadanie5":

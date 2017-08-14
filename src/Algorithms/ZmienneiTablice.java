@@ -24,5 +24,9 @@ public class ZmienneiTablice extends AbstractAlgorithm {
                 }
             }
         }
+
+        /** jezeli powtazajace elementy nie istnieja */
+
+        System.out.println("\nNie ma powtarzajacych sie elementow.\n");
     }
 }
